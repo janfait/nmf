@@ -1,0 +1,99 @@
+@font-face {
+font-family:MuseoSans-500;
+src:url(http://internet4.stemmark.cz/iquest/support/css/fonts/museo/museosans500.eot?#iefix) format(embedded-opentype), url(http://internet4.stemmark.cz/iquest/support/css/fonts/museo/museosans500.woff) format(woff), url(fonts/museo/museosans500.ttf) format(truetype), url(http://internet4.stemmark.cz/iquest/support/css/fonts/museo/museosans500.svg#museosans500) format(svg);
+font-weight:400;
+font-style:normal;
+}
+
+body {
+width:100%;
+height:100%;
+line-height:1.2em;
+color:#606470;
+font-size:1em;
+font-family:Verdana, sans-serif;
+margin:0;
+padding:0;
+}
+
+hr {
+
+ border:1px solid #dedede;
+
+}
+
+.header {
+position:relative;
+width:100%;
+height:60px;
+float:left;
+z-index:999;
+text-align:left;
+background-color:#F5F5F5;
+background:0 color-stop(100%,rgba(245,245,245,1)));
+}
+
+.footer {
+position:relative;
+width:100%;
+height:60px;
+float:left;
+z-index:999;
+text-align:left;
+font-size:0.8em;
+}
+
+#logo {
+
+padding:5px;
+
+}
+
+.span4{
+
+max-width:400px;
+
+}
+
+.span8 {
+width:100%;
+}
+
+.span2,.span3 {
+border-right:1px solid #dedede;
+padding:5px;
+}
+
+.button {
+border:1px solid #971C54;
+color:#FFF;
+cursor:pointer;
+box-shadow:0 2px 1px rgba(0,0,0,0.3), 0 1px 0 rgba(255,255,255,0.4) inset;
+border-radius:3px;
+min-width:90px;
+text-align:center;
+background-color:#BF0060;
+margin:10px;
+padding:10px;
+}
+
+h4,a {
+color:#BF0060;
+}
+
+
+table th {
+
+background-color:#F5F5F5;
+
+}
+
+.well{
+
+margin:5px;
+
+}
+
+
+
+
